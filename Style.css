@@ -1,0 +1,1895 @@
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+html, body, #home {
+    height: 100%;
+}
+/*logo*/
+
+/*imagem de fundo*/
+body {
+    background: url(../img/blue-technology-7680x4320.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--font-titulos);
+}
+
+    .th {
+        color: white;
+        font-size: 4vh;
+    }
+
+    .thp {
+        color: white;
+        font-size: 4vh;
+    }
+
+    .th2 {
+        color: white;
+        margin-top: 4vh;
+        font-size: 2vh;
+    }
+
+    .th2p {
+        color: white;
+        font-size: 2vh;
+        margin-top: 1vh;
+    }
+
+    .qh1 {
+        width: 30vh;
+        height: 30vh;
+        background-color: rgba(255, 255, 255, 0.322);
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2vh;
+        padding: 5vh;
+    }
+
+    .qh2 {
+        width: 30vh;
+        height: 30vh;
+        background-color: rgb(255, 255, 255, 0.322);
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2vh;
+        padding: 5vh;
+    }
+
+    .sm {
+        text-decoration: none;
+        color: white;
+    }
+
+    #bsm {
+        position: center;
+        margin-bottom: -5vh;
+        padding: 1vh;
+        margin-top: 14vh;
+    }
+
+    .h1s11 {
+        font-size: 4vh;
+    } 
+
+    .ds11 {
+        background-color: rgba(148, 148, 148, 0.5);
+        margin-left: 2vh;
+        margin-right: 2vh;
+        border-radius: 2vh;
+    }
+
+    .circulo {
+        width: 30vh;
+        height: 30vh;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(img/pessoa\ icon.png);
+        background-repeat: no-repeat;
+        background-size:15vh;
+        background-position: center;
+        padding-top: 3vh;
+        border-radius: 2vh;
+    }
+
+    .circulo2 {
+        width: 30vh;
+        height: 30vh;
+        background-color: white;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(img/horarios.png);
+        background-repeat: no-repeat;
+        background-size:10vh;
+        background-position: center;
+        padding-top: 3vh;
+        border-radius: 2vh;
+    }
+
+    .logos {
+        display: flex;
+    }
+    
+    .h1_nav {
+        font-size: 3.5vh;
+        
+    }
+    
+    .PDS {
+        background-color: #1f1f1f;
+        color: white;
+        padding: 0.5vh;
+        border-radius: 0.5vh;
+    }
+    
+    .quadrado_1 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/blue-technology-7680x4320.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    
+    .quadrado_3 {
+        width: 45vh;
+        height: 40vh;
+        background-color: #1f1f1f;
+        text-align: center;
+    }
+    
+    .todo1 {
+        display: flex; align-items: center; justify-content: center;
+    }
+
+    .todo2 {
+        width: 100%;
+        height: 80vh;
+        background-color: #1f1f1f;
+        text-align: center;
+        padding-top: 7vh;
+    }
+    
+    .todo1i {
+        display: flex; align-items: center; justify-content: center;
+        margin-top: 13vh;
+    }
+    
+    .todo3 {
+        display: flex; align-items: center; justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    
+    .h1e {
+        color: black;
+        font-size: 5vh;
+        margin-top: 10vh;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .eteccdl {
+        width: 35vh;
+        border-radius: 3vh;
+        margin-top: 1vh;
+        
+    }
+    
+    .eteccdl2 {
+        width: 20vh;
+        border-radius: 3vh;
+        
+    }
+    
+    .qdi {
+        width: 100%;
+        height: 25vh;
+        display: flex; align-items: center; justify-content: center;
+    }
+    
+    .aq1 {
+        font-size: 2vh;
+        text-decoration: none;
+        color: white;
+    }
+
+    .bq1 {
+        width: 15vh;
+        margin-top: 3vh;
+        padding: 1vh;
+        border-radius: 1vh;
+        background-color: #008cff;
+        border-bottom: 0;
+        border: none;
+    }
+
+    .qdi2 {
+        width: 100%;
+        height: 27vh;
+        display: flex; align-items: center; justify-content: center;
+    }
+    
+    .qdi12 {
+        margin-top: 5vh;
+        background-color: rgba(0, 0, 0, 0.705);
+        padding: 2vh;
+      margin-top: 10vh;
+      margin-right: 5vh;
+      margin-left: 5vh;
+      border-radius: 2vh;
+            }
+
+            .qdi122 {
+                margin-top: 5vh;
+                background-color: rgba(0, 0, 0, 0.705);
+                padding: 2vh;
+              margin-top: 5vh;
+              margin-right: 5vh;
+              margin-left: 5vh;
+              border-radius: 2vh;
+              height: 85vh;
+                    }
+                    .qdi122pp {
+                        margin-top: 5vh;
+                        background-color: rgba(0, 0, 0, 0.705);
+                        padding: 2vh;
+                      margin-top: 20vh;
+                      margin-right: 5vh;
+                      margin-left: 5vh;
+                      border-radius: 2vh;
+                      height: 85vh;
+                            }
+
+    .qdi22 {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .h1q1 {
+        text-align: center;
+        color: white;
+        margin-top: 2vh;
+    }
+
+      .rodape {
+          background-color: black;
+          width: 100%;
+          height: 40vh;
+          display: flex;
+          justify-content: space-evenly;
+      }
+
+      .h1_rodape {
+          font-size: 2vh;
+      }
+
+      .info_rodape_1 {
+
+        width: 30%;
+        height: 30vh;
+        margin-top: 6vh;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+      }
+
+      .info_rodape_2 {
+
+        width: 30%;
+        height: 30vh;
+        margin-top: 6vh;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+      }
+
+      .info_rodape_3 {
+
+        width: 30%;
+        height: 30vh;
+        margin-top: 6vh;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+      }
+
+      .p_rodape {
+
+        font-size: 1.5vh;
+        margin-top: 5vh;
+
+      }
+
+      .p_rodape2 {
+
+        font-size: 1.5vh;
+        margin-top: 4vh;
+
+      }
+
+      #carrossel {
+        margin-top: 25vh;
+    }
+
+    .eteccarrosel {
+        width: 100vh;
+    }
+
+      @media (max-width: 345px) {
+
+        .eteccarrosel {
+            width: 100vh;
+        }
+
+        #carrossel {
+            margin-top: 25vh;
+        }
+
+        .thp {
+            color: white;
+            font-size: 3vh;
+        }
+
+    
+        .th2p {
+            color: white;
+            font-size: 1.6vh;
+            margin-top: 2vh;
+        }
+
+        .th2 {
+            color: white;
+            margin-top: 4vh;
+            font-size: 2vh;
+            margin-left: -2vh;
+        }
+
+        .qh1 {
+            width: 25vh;
+            height: 32vh;
+        }
+
+        .qh2 {
+            width: 25vh;
+            height: 32vh;
+        }
+
+      }
+
+      @media (min-width: 800px) {
+
+        #carrossel {
+            margin-top: 35vh;
+        }
+
+        .qdi12 {
+            margin-top: 28vh;
+        }
+
+        .sm {
+            font-size: 2vh;
+        }
+      }
+
+      @media (min-width: 1000px) {
+
+        #carrossel {
+            margin-top: 30vh;
+        }
+
+        .h1q1 {
+            font-size: 4vh;
+        }
+
+        .sm {
+            text-decoration: none;
+            color: white;
+            font-size: 2.5vh;
+        }
+    
+        #bsm {
+            position: center;
+            margin-top: 22vh;
+        }
+    
+        .h1s11 {
+            font-size: 6vh;
+        } 
+    
+        .ds11 {
+            background-color: rgba(148, 148, 148, 0.5);
+            margin-left: 2vh;
+            margin-right: 2vh;
+            border-radius: 2vh;
+        }
+
+        .circulo {
+            padding-top: 0;
+            width: 40vh;
+            height: 40vh;
+            background-color: white;
+            background-size:30vh;
+            padding-top: 2vh;
+        }
+
+        .bq1 {
+            width: 25vh;
+            margin-top: 3vh;
+            padding: 1vh;
+            border-radius: 1vh;
+            background-color: #008cff;
+            border-bottom: 0;
+            border: none;
+        }
+
+        .aq1 {
+            font-size: 3vh;
+            text-decoration: none;
+            color: white;
+        }
+
+        .circulo2 {
+            padding-top: 0;
+            width: 40vh;
+            height: 40vh;
+            background-color: white;
+            background-size:20vh;
+            padding-top: 2vh;
+        }
+
+        .circulo3 {
+            padding-top: 0;
+            width: 30vh;
+            height: 30vh;
+            background-color: white;
+            margin-top: 20vh;
+        }
+
+        .todo2 {
+            justify-content: space-around;
+            width: 100%;
+            height: 95vh;
+            background-color: #1f1f1f;
+            text-align: center;
+            padding-top: 5vh;
+        }
+
+        .quadrado_1 {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+        
+        .quadrado_2 {
+            width: 45vh;
+            height: 80vh;
+        }
+        
+        .quadrado_3 {
+            width: 45vh;
+            height: 80vh;
+        }
+        
+        .eteccdl {
+            width: 40vh;
+            border-radius: 3vh;
+            margin-top: 35vh;
+            
+        }
+    
+        .qdi {
+     height: 50vh;
+        }
+    
+        .qdi12 {
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 5vh;
+  margin-top: 25vh;
+  margin-right: 10vh;
+  margin-left: 10vh;
+  border-radius: 2vh;
+        }
+        
+        .eteccdl {
+            width: 100%;
+            height: 100vh;
+        }
+    
+        .eteccdl2 {
+            width: 40%;
+            border-radius: 3vh;
+            margin-top: 5vh;
+            
+        }
+    
+        .qdi2 {
+            height: 50vh;
+        }
+    
+        .qdi22 {
+    margin-top: 5vh;
+    
+        }
+    
+      }
+
+    @media (min-width: 1025px) {
+        
+        .sala11carrosel {
+            width: 105vh;
+        }
+
+        .eteccarrosel {
+            width: 120vh;
+        }
+        
+        #carrossel {
+            margin-top: 20vh;
+        }
+
+        .qdi122 {
+            height: 98vh;
+        }
+
+        #bsm {
+            position: center;
+            margin-bottom: -5vh;
+            padding: 1vh;
+            margin-top: 28vh;
+        }
+
+        .ds11 {
+            background-color: rgba(148, 148, 148, 0.5);
+            margin-left: 5vh;
+            margin-right: 5vh;
+            border-radius: 2vh;
+            margin-top: 4vh;
+        }
+
+        .th {
+            color: white;
+            font-size: 8vh;
+            margin-top: 5vh;
+        }
+
+        .thp {
+            color: white;
+            font-size: 6vh;
+            margin-top: 1vh;
+        }
+    
+        .th2 {
+            color: white;
+            margin-top: 4vh;
+            font-size: 5vh;
+        }
+
+        .th2p {
+            color: white;
+            margin-top: 4vh;
+            font-size: 4vh;
+        }
+
+        .fh {
+            display: flex;
+        }
+
+        .fhp {
+            display: flex;
+        }
+
+        .fhpp {
+            background-color: rgba(63, 63, 63, 0.918);
+            padding-bottom: 5vh;
+            border-radius: 2vh;
+            padding-top: 1vh;
+            margin-top: 5vh;
+        }
+
+        .qh1 {
+            width: 60vh;
+            height: 60vh;
+        }
+
+        .qh2 {
+            width: 60vh;
+            height: 60vh;
+        }
+
+        .aq1 {
+            font-size: 2vh;
+            text-decoration: none;
+            color: white;
+        }
+
+        .circulo {
+            width: 50vh;
+            height: 50vh;
+            background-color: white;
+            margin-top: 20vh;
+        }
+
+        .circulo2 {
+            width: 50vh;
+            height: 50vh;
+            background-color: white;
+            margin-top: 20vh;
+        }
+
+        .circulo3 {
+            width: 50vh;
+            height: 50vh;
+            background-color: white;
+            margin-top: 20vh;
+        }
+
+        .todo2 {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 90vh;
+            background-color: #1f1f1f;
+            text-align: center;
+            padding-top: 0vh;
+        }
+
+        .quadrado_1 {
+            width: 100%;
+            height: 100vh;
+            background-image: url(img/blue-technology-7680x4320.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+        
+        .quadrado_2 {
+            width: 45vh;
+            height: 80vh;
+        }
+        
+        .quadrado_3 {
+            width: 45vh;
+            height: 80vh;
+        }
+        
+        .eteccdl {
+            width: 40vh;
+            border-radius: 3vh;
+            margin-top: 35vh;
+            
+        }
+    
+        .qdi {
+     height: 50vh;
+        }
+    
+        .qdi12 {
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 5vh;
+  margin-top: 7vh;
+  margin-right: 20vh;
+  margin-left: 20vh;
+  border-radius: 2vh;
+        }
+
+        .eteccdl {
+            width: 100%;
+            height: 100vh;
+        }
+    
+        .eteccdl2 {
+            width: 40%;
+            border-radius: 3vh;
+            margin-top: 5vh;
+            
+        }
+    
+        .qdi2 {
+            height: 50vh;
+        }
+    
+        .qdi22 {
+    margin-top: 5vh;
+    
+        }
+    }
+
+    /* FONTES */
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf) format(truetype);
+}
+
+/* VARIÁVEIS */
+
+:root {
+    --font-titulos: 'Rubik', Arial, Helvetica, sans-serif ;
+    --font-subtitulos: 'Mont', Arial, Helvetica, sans-serif;
+}
+
+/* LAYOUT */
+
+
+/*imagem de fundo*/
+
+/*MENU*/
+#teste-1{
+    color: white;
+    background-color: #000000bd;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+#teste-2{
+    color: white;
+    background-color: #000000bd;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+#teste-3{
+    color: white;
+    background-color: #000000bd;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+#teste-4{
+    color:white;
+}
+#teste-5{
+    color: #fff;
+    position: relative;
+}
+
+#atual{
+    color:cyan;
+    font-size: 1.1em;
+    cursor:pointer;
+    position: relative;
+}
+/*MENU*/
+/*navs*/
+.navbar-brand  img {
+    border-radius: 20px;
+}
+
+.navbar-collapse .navbar-nav li a {
+    font-size: 1.1em;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+nav .navbar-nav li a {
+    color: #000;
+}
+
+nav .navbar-nav li a:hover {
+    color: #2C3E50;
+}
+
+nav .navbar-toggler {
+    border: 1px solid #5DADE2;
+}
+
+nav .navbar-toggler i {
+    color: white;
+}
+
+ul.navbar-nav li a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #00ccff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .8s;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover::after {
+    width: 100%;
+} 
+
+/*navs*/
+.capa {
+    text-align: center;
+}
+/*btn*/
+.btn-custon span {
+    font-family:'Mont', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.btn-custon span {
+    font-family:'Mont', Arial, Helvetica, sans-serif;
+}
+
+.btn-custon {
+    border: 1px solid #000;
+    border-radius: 500px;
+    transition: background .4s, color .4s;
+}
+
+.btn-custon:hover {
+    background-color: #5DADE2;
+    color: #fff;
+}
+/*btn*/
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+/* CONTEUDO PRINCIPAL */
+
+#conteudo-principal h2 {
+    font-family: var(--font-titulos);
+    color: #2C3E50;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+#conteudo-principal h3 {
+    font-family: var(--font-subtitulos);
+    text-transform: uppercase;
+    color: #2980B9;
+}
+
+
+.t4 {
+    font-family: var(--font-subtitulos);
+    text-transform: uppercase;
+    color: #5DADE2;
+}
+
+#conteudo-principal p {
+    font-size: 1.2em;
+    color: white;
+}
+#conteudo-principal a{
+    font-size: 1.2em;
+    color: white;
+}
+
+.albuns {
+    padding: 15px 0;
+    margin-top: 55px;
+}
+/*conteudo princiapl*/
+
+/* RODAPE */
+
+footer span {
+    font-size: 1.4em;
+}
+
+footer .navbar-nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer .navbar-nav li a:hover {
+    color: #2C3E50;
+}
+/*rodape*/
+/* MEDIA QUERIES */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .nav .navbar-toggler {
+        border: 1px solid #5DADE2;
+    }
+    
+    nav .navbar-toggler i {
+        color: black;
+    }
+
+    #home h1 {
+        font-size: 1.6em;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+
+    #home a {
+        font-size: .9em;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    #home h1 {
+        font-size: 1.65em;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+
+    #home a {
+        font-size: 1em;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    #home h1 {
+        font-size: 1.7em;
+        margin: 0 20px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 15%;
+    }
+
+    #home a {
+        font-size: 1em;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    #home h1 {
+        font-size: 2em;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+    }
+
+    #home a {
+        font-size: 1.2em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+
+/* JOAQUIM */
+@font-face {
+    font-family: garet-heavy;
+    src: url(fonts/Garet-Heavy.otf);
+}
+@font-face {
+    font-family: garet-book;
+    src: url(fonts/Garet-Book.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+
+
+header{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+header > img{
+    padding-left: 2vw;
+    width: 6vw;
+}
+
+header > .buttons{
+    padding-top: 4vh;
+    padding-right: 10vw;
+    float: right;
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+}
+    header > button{
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 6;
+        margin-left: 80vw;
+        margin-right: 2vw;
+        color: black;
+    }
+    header > button > i{
+        color:  black;
+    }
+
+
+    header > button > i:hover .menu-lateral{
+        width: 20vw;
+    }
+
+i{
+    font-size: 4vh;
+    color: aliceblue;
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: right;
+    transition: .3s;
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+    height: 100vh;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+}
+.menu-lateral:hover{
+    width: 20vw;
+}
+
+.button{
+    padding-left: 2vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: .2s;
+    margin-top: 2vw;
+}
+.button:hover{
+    background-color: rgb(1, 1, 78);
+}
+.button a{
+    inline-size: 20vw;
+    padding-left: 20px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: garet-book;
+}
+
+.titulo{
+    text-align: center;
+    width: 100%;
+    padding-top: 18vh;
+}
+    .titulo > h1{
+        font-size: 7vh;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+
+  
+.cards{
+    justify-content: center;
+    padding-top: 14vh;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px 10px 10px;
+    background-image: url(img/1681039182chatgpt-logo-with-name.jpeg);
+    margin-bottom: 2vw;
+    transition: .2s;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    background-color: #DEE2E3;
+}
+    .txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 3vw;
+        padding-top: 3vw;
+    }
+    .txt > span > i{
+        color: black;
+    }
+
+    .card > .txt > span{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        align-items: center;
+        font-size: 5vh;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+    .card > .txt > p{
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.3vh;
+    }
+    .card > .txt > a{
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        background-color: #78b8e6;
+        padding: 10px 10px 10px 10px;
+    }
+
+footer{
+    text-align: center;
+    margin-top: 10vh;
+    background-color: #212227;
+}
+    footer > .txt > h1{
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vh;
+    }
+
+
+    /*Media para disp mobiles pequenos  */
+    @media screen and (max-width: 480px) {
+    
+        .cards > .card{
+            width: 70vw;
+        }
+        
+    }
+    /*Media para disp mobiles pequenos  */
+    
+    /*Media para disp mobiles */
+    @media screen and (min-width: 481) and (max-width: 768){
+    
+        .card > .txt > p{
+            inline-size: 100vw;
+        }
+        
+    }
+    /*Media para disp mobiles */
+
+    /* Balber */
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100vh;
+    }
+    .foto-inicial{
+        background-image: url(img/background-da-tecnologia_302149-247.avif);
+        background-position: center;
+        background-size: 100%;
+        width: 96%;
+        height: 50VH;
+        padding: 2%;
+    }
+    .div{
+        background-color: transparent;
+        margin-top: -20%;
+        height: 30%;
+    }
+    .tfoto{
+        color: white;
+        text-align: center;
+        margin-top: -10%;
+        font-size: 40px;
+    }
+    .ttfoto{
+        text-align: center;
+        color: white;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 2%;
+        font-size: 20px;
+    }
+    .foto img{
+        width: 650px;
+        background-color: white;
+        height: 50%;
+        margin-top: 0%;
+        margin-left: 5%;
+        float: left;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .tudo h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 15%;
+    }
+    .tudo p{
+        color: rgb(0, 0, 0);
+        margin-left: 43%;
+        margin-right: 5%;
+        font-size: 30px;
+        text-align: justify;
+        padding: 3%;
+    }
+    .container{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        background-image: url(img/background-da-tecnologia_302149-247.avif);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10%;
+    }
+    .item{
+        transition: .35s;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        width: 18%;
+        height: 36vh;
+        margin-left: 5%;
+        margin-top: 8%;
+        border: 2px solid white;
+    }
+    .item1{
+        transition: .35s;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        width: 18%;
+        height: 36vh;
+        margin-left: 6%;
+        margin-top: 8%;
+        border: 2px solid white;
+    }
+    .container:hover > :not(:hover){
+        opacity: .4;
+        transform: scale(0.9);
+    }
+    .foto2 img{
+        width: 650px;
+        background-color: white;
+        height: 430px;
+        margin-top: 0%;
+        margin-left: 7.5%;
+        float: left;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .tudo2 h1{
+        color: rgb(0, 0, 0);
+        margin-left: 55%;
+        margin-top: 10%;
+    }
+    .tudo2 p{
+        color: rgb(0, 0, 0);
+        margin-left: 43%;
+        margin-right: 5%;
+        font-size: 30px;
+        text-align: justify;
+        padding: 3%;
+    }
+    .foto3 img{
+        width: 650px;
+        background-color: white;
+        height: 50%;
+        margin-top: -24.5%;
+        margin-left: 58.5%;
+        float: left;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .tudo3 h1{
+        color: rgb(0, 0, 0);
+        margin-left: 17%;
+        margin-top: 10%;
+    }
+    .tudo3 p{
+        color: rgb(0, 0, 0);
+        margin-left: 5%;
+        margin-right: 43%;
+        font-size: 30px;
+        text-align: justify;
+        padding: 3%;
+    }
+    footer{
+        background-color: rgb(53, 53, 53);
+        width: 100%;
+        height: 20vh;
+        margin-top: 10%;
+        float: inline-start;
+    }
+    footer p{
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .item img{
+        width: 100%;
+        height: 100%;
+    }
+    .item1 img{
+        width: 100%;
+        height: 100%;
+    }
+    @media screen and (max-width:900px) {
+        .foto-inicial{
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-position: center;
+            background-size: 100%;
+            width: 100%;
+            height: 30vh;
+            padding: 2%;
+        }
+        .tfoto{
+            color: white;
+            text-align: center;
+            margin-top: -80%;
+            font-size: 30px;
+        }
+        .ttfoto{
+            text-align: justify;
+            color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 2%;
+            font-size: 15px;
+        }
+        .tudo h1{
+            text-align: center;
+            margin-top: 15%;
+            font-size: 30px;
+            padding-top: 75%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .foto img{
+            width: 380px;
+            background-color: white;
+            height: 50%;
+            margin-top: 10%;
+            margin-left: 5%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            font-size: 15px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .container{
+            width: 100%;
+            height: 165vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: center;
+        }
+        .item{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 350px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .item1{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 350px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .tudo2 h1{
+            text-align: center;
+            margin-top: 15%;
+            font-size: 30px;
+            padding-top: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .foto2 img{
+            width: 380px;
+            background-color: white;
+            height: 50%;
+            margin-top: 10%;
+            margin-left: 5%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo2 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            font-size: 15px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .tudo3 h1{
+            text-align: center;
+            margin-top: 15%;
+            font-size: 30px;
+            padding-top: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .foto3 img{
+            width: 380px;
+            background-color: white;
+            height: 50%;
+            margin-top: 3%;
+            margin-left: 5%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo3 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            font-size: 15px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .foto-inicial{
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-position: center;
+            background-size: 100%;
+            width: 100%;
+            height: 40vh;
+            padding: 2%;
+        }
+        .tfoto{
+            color: white;
+            text-align: center;
+            margin-top: -50%;
+            font-size: 70px;
+        }
+        .ttfoto{
+            text-align: center;
+            color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 2%;
+            font-size: 25px;
+        }
+        .foto img{
+            width: 800px;
+            background-color: white;
+            height: 50%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo h1{
+            text-align: center;
+            margin-top: 15%;
+            font-size: 50px;
+            padding-top: 70%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .container{
+            width: 100%;
+            height: 175vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: center;
+            margin-top: -5%;
+        }
+        .item{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 800px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .item1{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 800px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .foto2 img{
+            width: 800px;
+            background-color: white;
+            height: 40%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo2 h1{
+            text-align: center;
+            margin-top: 20%;
+            font-size: 50px;
+            padding-top: 70%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo2 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .foto3 img{
+            width: 800px;
+            background-color: white;
+            height: 50%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo3 h1{
+            text-align: center;
+            margin-top: 0%;
+            font-size: 50px;
+            padding-top: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo3 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+            margin-top: 5%;
+            font-size: 30px;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+    }
+    @media screen and (min-width:820px) {
+        .foto-inicial{
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-position: center;
+            background-size: 100%;
+            width: 100%;
+            height: 40vh;
+            padding: 2%;
+        }
+        .tfoto{
+            color: white;
+            text-align: center;
+            margin-top: -60%;
+            font-size: 50px;
+        }
+        .ttfoto{
+            text-align: center;
+            color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 2%;
+            font-size: 20px;
+        }
+        .foto img{
+            width: 650px;
+            background-color: white;
+            height: 50%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo h1{
+            text-align: center;
+            margin-top: 15%;
+            font-size: 50px;
+            padding-top: 70%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .container{
+            width: 100%;
+            height: 175vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: center;
+            margin-top: -5%;
+        }
+        .item{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 650px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .item1{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 650px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .foto2 img{
+            width: 650px;
+            background-color: white;
+            height: 40%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo2 h1{
+            text-align: center;
+            margin-top: 20%;
+            font-size: 50px;
+            padding-top: 70%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo2 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .foto3 img{
+            width: 650px;
+            background-color: white;
+            height: 50%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo3 h1{
+            text-align: center;
+            margin-top: 0%;
+            font-size: 50px;
+            padding-top: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo3 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+            margin-top: 5%;
+            font-size: 30px;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+    }
+    @media screen and (max-width:350px){
+        .foto-inicial{
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-position: center;
+            background-size: 100%;
+            width: 100%;
+            height: 60vh;
+            padding: 2%;
+        }
+        .tfoto{
+            color: white;
+            text-align: center;
+            margin-top: -100%;
+            font-size: 30px;
+        }
+        .ttfoto{
+            text-align: justify;
+            color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 2%;
+            font-size: 20px;
+        }
+        .foto img{
+            width: 650px;
+            background-color: white;
+            height: 50%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo h1{
+            text-align: center;
+            margin-top: 15%;
+            font-size: 50px;
+            padding-top: 70%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .container{
+            width: 100%;
+            height: 175vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url(img/background-da-tecnologia_302149-247.avif);
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: center;
+            margin-top: -5%;
+        }
+        .item{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 600px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .item1{
+            transition: .35s;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            width: 600px;
+            height: 36vh;
+            margin-left: 8.3%;
+            margin-top: 8%;
+            border: 2px solid white;
+        }
+        .foto2 img{
+            width: 650px;
+            background-color: white;
+            height: 40%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo2 h1{
+            text-align: center;
+            margin-top: 20%;
+            font-size: 50px;
+            padding-top: 70%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo2 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        .foto3 img{
+            width: 650px;
+            background-color: white;
+            height: 50%;
+            margin-top: 5%;
+            margin-left: 10%;
+            float: left;
+            border: 2px solid rgb(0, 0, 0);
+            display: block;
+        }
+        .tudo3 h1{
+            text-align: center;
+            margin-top: 0%;
+            font-size: 50px;
+            padding-top: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .tudo3 p{
+            color: rgb(0, 0, 0);
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 40px;
+            text-align: justify;
+            padding-bottom: 15%;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+            margin-top: 5%;
+            font-size: 30px;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+    }

@@ -1,0 +1,6 @@
+Azul Marinho (#2C3E50): Um tom profundo e escuro para iniciar o gradiente.
+Azul Médio (#2980B9): Um tom intermediário para suavizar a transição.
+Azul Celeste (#5DADE2): Um tom claro e vibrante para finalizar o gradiente.
+Complemento: Cinza Claro (#ECF0F1) pode ser usado para fundos ou elementos que contrastam bem com o gradiente.
+
+
